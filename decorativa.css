@@ -1,0 +1,30 @@
+@font-face{
+    font-family: "GABRWFFR";
+    src: url("letras/GABRWFFR.TTF");
+}
+@font-face{
+    font-family:"Coachella";
+    src: url("letras/MADE\ Coachella\ Regular\ PERSONAL\ USE.otf")
+}
+@font-face{
+    font-family:"angltrr";
+    src: url("letras/angltrr.ttf");
+}
+@font-face{
+    font-family:"Chapaza";
+    src: url("letras/Chapaza.ttf");
+}
+@font-face{
+    font-family:"Roboto";
+    src: url("letras/Copia\ de\ Roboto-Light.ttf");
+}
+#gil{
+    font-family:"GABRWFFR";
+}
+.card-title{
+    font-family:"GABRWFFR" ;
+}
+.card-text{
+    font-family:"Roboto";
+    
+}
