@@ -5,19 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="decorativa.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
-<body style="background-color: #ffffbf;">
+<body style="background-color:white;">
     <!-- Image and text -->
-    <nav class="navbar navbar-light bg-light" style="background-color:#ffff8b!Important; height: 70px;">
+    <nav class="navbar navbar-light bg-light" style="background-color:white!Important; height: 70px;">
         <a class="navbar-brand" href="#">
             <img src="Imagenes/Friendslogo.svg.png" height="60px" class="d-inline-block align-top" alt="">
         </a>
     </nav>
 
-    <nav class="nav" style="background-color: #ffff8b ">
+    <nav class="nav" style="background-color:whitesmoke " id="gil">
         <a class="nav-link text-dark h5" href="Friends.html">Inicio</a>
         <a class="nav-link text-dark h5" href="Tienda.html">Tienda</a>
         <a class="nav-link text-dark h5" href="Historia.html">Historia</a>
@@ -32,12 +33,12 @@
                 <div class="dropdown">
                     <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                        style="background-color: #ff8a80;border: none;">
+                         style="background-color:rgba(128, 128, 128, 0.555);border: none;">
                         Conoce a los demás<br> personajes
                     </a>
 
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"
-                        style="background-color: #ff8a80;width: 20px;">
+                    <div id="opciones" class="dropdown-menu" aria-labelledby="dropdownMenuLink"
+                        style="background-color:rgba(128, 128, 128, 0.555);width: 20px;">
                         <a class="dropdown-item" href="Chandler.html">Chandler Bing</a>
                         <a class="dropdown-item" href="Monica.html">Monica Geller</a>
                         <a class="dropdown-item" href="Ross.html">Ross Geller</a>
@@ -47,10 +48,10 @@
                 </div>
             </div>
         <div class="col-sm-8">
-            <div class="jumbotron jumbotron-fluid" style="background-color: #ff8a80;border-radius: 10%;">
+            <div class="jumbotron jumbotron-fluid" style="background-color:#d7ccc8 ;border-radius: 10%;">
                 <div class="container">
-                    <h1 class="display-4">Joey Tribbiani</h1>
-                    <p class="lead" style="text-align: justify;">Nacido en Queens 9 de enero de 1968, Joey viene de una
+                    <h1 id="personajes-titulo" class="display-4">Joey Tribbiani</h1>
+                    <p id="personajes-texto" class="lead" style="text-align: justify;">Nacido en Queens 9 de enero de 1968, Joey viene de una
                         familia
                         italo-americana de 8 hijos,
                         en la cual él es el único varón. Él es en parte portugués,​ un 1/16, pero no se sabe de qué lado
