@@ -28,3 +28,36 @@
     font-family:"Roboto";
     
 }
+#tienda{
+    font-family: "GABRWFFR";
+    text-align: center;
+}
+#boton{
+    align-items: flex-end;
+}
+.btn-primary{
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+#historia-titulo{
+    font-family:"GABRWFFR"
+}
+#historia-text{
+    font-family:"Roboto";
+}
+#titulos-tabla{
+    font-family: "GABRWFFR";
+    text-align: center;
+}
+#texto-tabla{
+    font-family:"Roboto";
+    text-align: center;
+    padding: 6px;
+    border-radius: inherit;
+}
+#titulo-juego{
+    font-family: "GABRWFFR";
+}
+#texto-juego{
+    font-family:"Roboto";
+}
