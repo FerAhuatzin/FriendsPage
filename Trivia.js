@@ -1,9 +1,9 @@
-// var espacio = $('#espacio')
-// espacio.hide()
+var espacio = $('#espacio')
+espacio.hide()
 function Jugar() {
     var jugar = $('#Jugar')
     jugar.hide()
-    // espacio.show()
+    espacio.show()
     var preguntas = {
         p1: "Tiene un hijo llamado Ben",
         p2: "Esposo de Rachel",
@@ -251,163 +251,144 @@ function Jugar() {
     pregunta(preguntaAleatoria, 119, preguntas.p119)
     pregunta(preguntaAleatoria, 120, preguntas.p120)
 
-    if (preguntaAleatoria <= 20 && preguntaAleatoria >= 1) {
-        Ross()
+    if(preguntaAleatoria <= 20 && preguntaAleatoria >= 1) {
+        document.getElementById('Ross').addEventListener('click', function () {
+            console.log("Respuesta correcta")
+            preguntaAleatoria=0
+            console.log(preguntaAleatoria)
+            Jugar()
+        })
+        document.getElementById('Rachel').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Joey').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Chandler').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Monica').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Phoebe').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
     }
-    if (preguntaAleatoria <= 40 && preguntaAleatoria >= 20) {
-        Rachel()
+    if(preguntaAleatoria <= 40 && preguntaAleatoria >= 20) {
+        document.getElementById('Rachel').addEventListener('click', function () {
+            console.log("Respuesta correcta")
+            preguntaAleatoria=0
+            console.log(preguntaAleatoria)
+            Jugar()
+        })
+        document.getElementById('Ross').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Joey').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Chandler').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Monica').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Phoebe').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
     }
-    if (preguntaAleatoria <= 60 && preguntaAleatoria >= 40) {
-        Joey()
+    if(preguntaAleatoria <= 60 && preguntaAleatoria >= 40) {
+        document.getElementById('Joey').addEventListener('click', function () {
+            console.log("Respuesta correcta")
+            preguntaAleatoria=0
+            console.log(preguntaAleatoria)
+            Jugar()
+        })
+        document.getElementById('Rachel').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Ross').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Chandler').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Monica').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Phoebe').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
     }
-    if (preguntaAleatoria <= 80 && preguntaAleatoria >= 60) {
-        Chandler()
+    if(preguntaAleatoria <= 80 && preguntaAleatoria >= 60) {
+        document.getElementById('Chandler').addEventListener('click', function () {
+            console.log("Respuesta correcta")
+            preguntaAleatoria=0
+            console.log(preguntaAleatoria)
+            Jugar()
+        })
+        document.getElementById('Rachel').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Joey').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Ross').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Monica').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Phoebe').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
     }
-    if (preguntaAleatoria <= 100 && preguntaAleatoria >= 80) {
-        Monica()
+    if(preguntaAleatoria <= 100 && preguntaAleatoria >= 80) {
+        document.getElementById('Monica').addEventListener('click', function () {
+            console.log("Respuesta correcta")
+            preguntaAleatoria=0
+            console.log(preguntaAleatoria)
+            Jugar()
+        })
+        document.getElementById('Rachel').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Joey').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Chandler').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Ross').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Phoebe').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
     }
-    if (preguntaAleatoria <= 120 && preguntaAleatoria >= 100) {
-        Phoebe()
+    if(preguntaAleatoria <= 120 && preguntaAleatoria >= 100) {
+        document.getElementById('Phoebe').addEventListener('click', function () {
+            console.log("Respuesta correcta")
+            preguntaAleatoria=0
+            console.log(preguntaAleatoria)
+            Jugar()
+        })
+        document.getElementById('Rachel').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Joey').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Chandler').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Monica').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
+        document.getElementById('Ross').addEventListener('click', function () {
+            console.log("Respuesta incorrecta")
+        })
     }
-}
-
-
-
-
-function Ross() {
-    document.getElementById('Ross').addEventListener('click', function () {
-        console.log("Respuesta correcta")
-        Jugar()
-    })
-    document.getElementById('Rachel').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Joey').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Chandler').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Monica').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Phoebe').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-}
-
-function Rachel() {
-    document.getElementById('Rachel').addEventListener('click', function () {
-        console.log("Respuesta correcta")
-        Jugar()
-    })
-    document.getElementById('Ross').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Joey').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Chandler').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Monica').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Phoebe').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-}
-
-
-function Joey() {
-    document.getElementById('Joey').addEventListener('click', function () {
-        console.log("Respuesta correcta")
-        Jugar()
-    })
-    document.getElementById('Rachel').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Ross').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Chandler').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Monica').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Phoebe').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-}
-
-
-function Chandler() {
-    document.getElementById('Chandler').addEventListener('click', function () {
-        console.log("Respuesta correcta")
-        Jugar()
-    })
-    document.getElementById('Rachel').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Joey').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Ross').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Monica').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Phoebe').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-}
-
-
-function Monica() {
-    document.getElementById('Monica').addEventListener('click', function () {
-        console.log("Respuesta correcta")
-        Jugar()
-    })
-    document.getElementById('Rachel').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Joey').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Chandler').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Ross').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Phoebe').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-}
-
-
-function Phoebe() {
-    document.getElementById('Phoebe').addEventListener('click', function () {
-        console.log("Respuesta correcta")
-        Jugar()
-    })
-    document.getElementById('Rachel').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Joey').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Chandler').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Monica').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
-    document.getElementById('Ross').addEventListener('click', function () {
-        console.log("Respuesta incorrecta")
-    })
 }
 
 function pregunta(preguntaAleatoria, opcion, opciones) {
