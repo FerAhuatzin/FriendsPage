@@ -130,9 +130,9 @@ function Jugar() {
 
     var preguntaAleatoria = Math.floor(Math.random() * (120) + 1)
     console.log(preguntaAleatoria)
-    
+
     var contador = 1;
-    
+
     for (const key in preguntas) {
         if (preguntas.hasOwnProperty(key)) {
             const element = preguntas[key];
@@ -140,7 +140,21 @@ function Jugar() {
             contador++
         }
     }
-    
+
+    // var Ross = $("#Ross")
+    // var Rachel = $('#Rachel')
+    // var Joey = $('#Joey')
+    // var Chandler = $('#Chandler')
+    // var Monica = $('#Monica')
+    // var Phoebe = $('#Phoebe')
+
+    // respuesta(Ross, Rachel, Joey, Chandler, Monica, Phoebe, 1, 20, preguntaAleatoria, array)
+    // respuesta(Rachel, Joey, Chandler, Monica, Phoebe, Ross, 21, 40, preguntaAleatoria, array)
+    // respuesta(Joey, Chandler, Monica, Phoebe, Ross, Rachel, 41, 60, preguntaAleatoria, array)
+    // respuesta(Chandler, Monica, Phoebe, Ross, Rachel, Joey, 61, 80, preguntaAleatoria, array)
+    // respuesta(Monica, Phoebe, Ross, Rachel, Joey, Chandler, 81, 100, preguntaAleatoria, array)
+    // respuesta(Phoebe, Ross, Rachel, Joey, Chandler, Monica, 101, 120, preguntaAleatoria, array)
+
 
     if (preguntaAleatoria <= 20 && preguntaAleatoria >= 1) {
         document.getElementById('Ross').addEventListener('click', function () {
@@ -151,27 +165,27 @@ function Jugar() {
             console.log(array)
             remover()
             Jugar()
-            
+
         })
         document.getElementById('Rachel').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Joey').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Chandler').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Monica').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Phoebe').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
     }
     if (preguntaAleatoria <= 40 && preguntaAleatoria >= 21) {
@@ -182,27 +196,27 @@ function Jugar() {
             array.pop(0)
             remover()
             Jugar()
-            
+
         })
         document.getElementById('Ross').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Joey').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Chandler').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Monica').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Phoebe').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
     }
     if (preguntaAleatoria <= 60 && preguntaAleatoria >= 41) {
@@ -213,27 +227,27 @@ function Jugar() {
             array.pop(0)
             remover()
             Jugar()
-            
+
         })
         document.getElementById('Rachel').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Ross').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Chandler').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Monica').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Phoebe').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
     }
     if (preguntaAleatoria <= 80 && preguntaAleatoria >= 61) {
@@ -244,27 +258,27 @@ function Jugar() {
             array.pop(0)
             remover()
             Jugar()
-            
+
         })
         document.getElementById('Rachel').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Joey').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Ross').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Monica').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Phoebe').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
     }
     if (preguntaAleatoria <= 100 && preguntaAleatoria >= 81) {
@@ -275,27 +289,27 @@ function Jugar() {
             array.pop(0)
             remover()
             Jugar()
-            
+
         })
         document.getElementById('Rachel').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Joey').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Chandler').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Ross').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Phoebe').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
     }
     if (preguntaAleatoria <= 120 && preguntaAleatoria >= 101) {
@@ -306,27 +320,27 @@ function Jugar() {
             array.pop(0)
             remover()
             Jugar()
-            
+
         })
         document.getElementById('Rachel').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Joey').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Chandler').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Monica').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
         document.getElementById('Ross').addEventListener('click', function () {
             console.log("Respuesta incorrecta")
-            
+
         })
     }
     array.pop(0)
@@ -342,7 +356,30 @@ function pregunta(array, preguntaAleatoria, opcion, opciones) {
         console.log(p)
     }
 }
+
 function remover() {
     var texto = $('p')
     texto.hide()
 }
+
+// function respuesta(R1, R2, R3, R4, R5, R6, min, max, preguntaAleatoria, array) {
+//     if (preguntaAleatoria >= min && preguntaAleatoria <= max) {
+//         R1 = addEventListener('click', function () {
+//             console.log("Respuesta correcta")
+//             preguntaAleatoria=0
+//             array.pop(0)
+//             remover()
+//             Jugar()
+//         })
+//         respuestaIncorrecta(R2)
+//         respuestaIncorrecta(R3)
+//         respuestaIncorrecta(R4)
+//         respuestaIncorrecta(R5)
+//         respuestaIncorrecta(R6)
+//     }
+// }
+// function respuestaIncorrecta(R) {
+//     R = addEventListener('click', function () {
+//         console.log("Respuesta incorrecta")
+//     })
+// }
