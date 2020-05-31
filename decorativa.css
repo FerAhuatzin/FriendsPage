@@ -2,75 +2,125 @@
     font-family: "GABRWFFR";
     src: url("letras/GABRWFFR.TTF");
 }
+
 @font-face{
     font-family:"Coachella";
     src: url("letras/MADE\ Coachella\ Regular\ PERSONAL\ USE.otf")
 }
+
 @font-face{
     font-family:"angltrr";
     src: url("letras/angltrr.ttf");
 }
+
 @font-face{
     font-family:"Chapaza";
     src: url("letras/Chapaza.ttf");
 }
+
 @font-face{
     font-family:"Roboto";
     src: url("letras/Copia\ de\ Roboto-Light.ttf");
 }
+
 #gil{
     font-family:"GABRWFFR";
 }
+
 .card-title{
     font-family:"GABRWFFR" ;
 }
+
 .card-text{
     font-family:"Roboto";
     
 }
+
 #tienda{
     font-family: "GABRWFFR";
     text-align: center;
 }
+
 #boton{
     align-items: flex-end;
 }
+
 .btn-primary{
     background-color: whitesmoke;
     border-color: whitesmoke;
 }
+
 #historia-titulo{
     font-family:"GABRWFFR"
 }
+
 #historia-text{
     font-family:"Roboto";
 }
+
 #titulos-tabla{
     font-family: "GABRWFFR";
     text-align: center;
 }
+
 #texto-tabla{
     font-family:"Roboto";
     text-align: center;
     padding: 6px;
     border-radius: inherit;
 }
+
 #titulo-juego{
     font-family: "GABRWFFR";
 }
+
 #texto-juego{
     font-family:"Roboto";
 }
+
 #personajes-titulo{
     font-family: "GABRWFFR";
     text-align: center;
 }
+
 #personajes-texto{
     font-family:"Roboto";
+    word-break: break-word;
+    font-size:16px;
+    border-left: 10px;
+    width: 50%;
+    margin: 2%;
+    text-align: justify;
 }
+
 #opciones{
     font-family:"Roboto";
 }
+
 #dropdownMenuLink{
     font-family: "GABRWFFR";
+}
+
+#imagen-personajes{
+    height: 300px;
+    border-radius: 10px;
+    margin: 1.5%;
+}
+
+#articulo{
+  
+    display: flex;
+    margin-bottom: 5px;
+    width: 100%;
+   background:whitesmoke;
+    word-break:break-all;
+    border-radius: 10px;
+    font-family: 'Oswald';
+    word-break: break-word;
+  }
+#imagen-personaje{
+    height: 330px;
+    border-radius: 10px;
+    margin: 1.5%;
+    align-items: center;
 }
