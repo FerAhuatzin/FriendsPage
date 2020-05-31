@@ -416,7 +416,7 @@ function remover() {
 function puntaje(puntos) {
     if (puntos <= 5) {
         var p = document.createElement("p")
-        p.append("Obtuviste " + puntos + ": Aparentementea alguien no le gusta tanto firends")
+        p.append("Obtuviste " + puntos + ": Aparentemente a alguien no le gusta tanto friends")
         espacio.append(p)
     }
 
