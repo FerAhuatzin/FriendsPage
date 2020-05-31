@@ -157,188 +157,187 @@ function Jugar() {
 
 
     if (preguntaAleatoria <= 20 && preguntaAleatoria >= 1) {
-        document.getElementById('Ross').addEventListener('click', function () {
+        document.getElementById('Ross').addEventListener('click', function respuestaRoss() {
             console.log("Respuesta correcta")
-            preguntaAleatoria = 0
             console.log(preguntaAleatoria)
             array.pop(0)
-            console.log(array)
+                document.getElementById('Ross').removeEventListener('click', respuestaRoss)
             remover()
             Jugar()
 
         })
-        document.getElementById('Rachel').addEventListener('click', function () {
+        document.getElementById('Rachel').addEventListener('click', function respuestaRachel() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Joey').addEventListener('click', function () {
+        document.getElementById('Joey').addEventListener('click', function respuestaJoey() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Chandler').addEventListener('click', function () {
+        document.getElementById('Chandler').addEventListener('click', function respuestaChandler() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Monica').addEventListener('click', function () {
+        document.getElementById('Monica').addEventListener('click', function respuestaMonica() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Phoebe').addEventListener('click', function () {
+        document.getElementById('Phoebe').addEventListener('click', function respuestaPhoebe() {
             console.log("Respuesta incorrecta")
 
         })
     }
     if (preguntaAleatoria <= 40 && preguntaAleatoria >= 21) {
-        document.getElementById('Rachel').addEventListener('click', function () {
+        document.getElementById('Rachel').addEventListener('click', function respuestaRachel1() {
             console.log("Respuesta correcta")
-            preguntaAleatoria = 0
             console.log(preguntaAleatoria)
             array.pop(0)
+                document.getElementById('Rachel').removeEventListener('click', respuestaRachel1)
             remover()
             Jugar()
 
         })
-        document.getElementById('Ross').addEventListener('click', function () {
+        document.getElementById('Ross').addEventListener('click', function respuestaRoss1() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Joey').addEventListener('click', function () {
+        document.getElementById('Joey').addEventListener('click', function respuestaJoey1() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Chandler').addEventListener('click', function () {
+        document.getElementById('Chandler').addEventListener('click', function respuestaChandler1() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Monica').addEventListener('click', function () {
+        document.getElementById('Monica').addEventListener('click', function respuestaMonica1() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Phoebe').addEventListener('click', function () {
+        document.getElementById('Phoebe').addEventListener('click', function respuestaPhoebe1() {
             console.log("Respuesta incorrecta")
 
         })
     }
     if (preguntaAleatoria <= 60 && preguntaAleatoria >= 41) {
-        document.getElementById('Joey').addEventListener('click', function () {
+        document.getElementById('Joey').addEventListener('click', function respuestaJoey2() {
             console.log("Respuesta correcta")
-            preguntaAleatoria = 0
             console.log(preguntaAleatoria)
             array.pop(0)
+                document.getElementById('Joey').removeEventListener('click', respuestaJoey2)
             remover()
             Jugar()
 
         })
-        document.getElementById('Rachel').addEventListener('click', function () {
+        document.getElementById('Rachel').addEventListener('click', function respuestaRachel2() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Ross').addEventListener('click', function () {
+        document.getElementById('Ross').addEventListener('click', function respuestaRoss2() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Chandler').addEventListener('click', function () {
+        document.getElementById('Chandler').addEventListener('click', function respuestaChandler2() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Monica').addEventListener('click', function () {
+        document.getElementById('Monica').addEventListener('click', function respuestaMonica2() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Phoebe').addEventListener('click', function () {
+        document.getElementById('Phoebe').addEventListener('click', function respuestaPhoebe2() {
             console.log("Respuesta incorrecta")
 
         })
     }
     if (preguntaAleatoria <= 80 && preguntaAleatoria >= 61) {
-        document.getElementById('Chandler').addEventListener('click', function () {
+        document.getElementById('Chandler').addEventListener('click', function respuestaChandler3() {
             console.log("Respuesta correcta")
-            preguntaAleatoria = 0
             console.log(preguntaAleatoria)
             array.pop(0)
+                document.getElementById('Chandler').removeEventListener('click', respuestaChandler3)
             remover()
             Jugar()
 
         })
-        document.getElementById('Rachel').addEventListener('click', function () {
+        document.getElementById('Rachel').addEventListener('click', function respuestaRachel3() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Joey').addEventListener('click', function () {
+        document.getElementById('Joey').addEventListener('click', function respuestaJoey3() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Ross').addEventListener('click', function () {
+        document.getElementById('Ross').addEventListener('click', function respuestaRoss3() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Monica').addEventListener('click', function () {
+        document.getElementById('Monica').addEventListener('click', function respuestaMonica3() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Phoebe').addEventListener('click', function () {
+        document.getElementById('Phoebe').addEventListener('click', function respuestaPhoebe3() {
             console.log("Respuesta incorrecta")
 
         })
     }
     if (preguntaAleatoria <= 100 && preguntaAleatoria >= 81) {
-        document.getElementById('Monica').addEventListener('click', function () {
+        document.getElementById('Monica').addEventListener('click', function respuestaMonica4() {
             console.log("Respuesta correcta")
-            preguntaAleatoria = 0
             console.log(preguntaAleatoria)
             array.pop(0)
+                document.getElementById('Monica').removeEventListener('click', respuestaMonica4)
             remover()
             Jugar()
 
         })
-        document.getElementById('Rachel').addEventListener('click', function () {
+        document.getElementById('Rachel').addEventListener('click', function respuestaRachel4() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Joey').addEventListener('click', function () {
+        document.getElementById('Joey').addEventListener('click', function respuestaJoey4() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Chandler').addEventListener('click', function () {
+        document.getElementById('Chandler').addEventListener('click', function respuestaChandler4() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Ross').addEventListener('click', function () {
+        document.getElementById('Ross').addEventListener('click', function respuestaRoss4() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Phoebe').addEventListener('click', function () {
+        document.getElementById('Phoebe').addEventListener('click', function respuestaPhoebe4() {
             console.log("Respuesta incorrecta")
 
         })
     }
     if (preguntaAleatoria <= 120 && preguntaAleatoria >= 101) {
-        document.getElementById('Phoebe').addEventListener('click', function () {
+        document.getElementById('Phoebe').addEventListener('click', function respuestaPhoebe5() {
             console.log("Respuesta correcta")
-            preguntaAleatoria = 0
             console.log(preguntaAleatoria)
             array.pop(0)
+                document.getElementById('Phoebe').removeEventListener('click', respuestaPhoebe5)
             remover()
             Jugar()
 
         })
-        document.getElementById('Rachel').addEventListener('click', function () {
+        document.getElementById('Rachel').addEventListener('click', function respuestaRachel5() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Joey').addEventListener('click', function () {
+        document.getElementById('Joey').addEventListener('click', function respuestaJoey5() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Chandler').addEventListener('click', function () {
+        document.getElementById('Chandler').addEventListener('click', function respuestaChandler5() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Monica').addEventListener('click', function () {
+        document.getElementById('Monica').addEventListener('click', function respuestaMonica5() {
             console.log("Respuesta incorrecta")
 
         })
-        document.getElementById('Ross').addEventListener('click', function () {
+        document.getElementById('Ross').addEventListener('click', function respuestaRoss5() {
             console.log("Respuesta incorrecta")
 
         })
@@ -363,23 +362,37 @@ function remover() {
 }
 
 // function respuesta(R1, R2, R3, R4, R5, R6, min, max, preguntaAleatoria, array) {
-//     if (preguntaAleatoria >= min && preguntaAleatoria <= max) {
-//         R1 = addEventListener('click', function () {
+//     if (preguntaAleatoria <= max && preguntaAleatoria >= min) {
+//         R1=addEventListener('click', function respuesta0() {
 //             console.log("Respuesta correcta")
-//             preguntaAleatoria=0
 //             array.pop(0)
+//             eliminar.show()
+//             espacio.hide()
+//             document.getElementById('eliminar').addEventListener('click',function () {
+//                 R1=removeEventListener('click', respuesta0)
+//             })
 //             remover()
 //             Jugar()
+
 //         })
-//         respuestaIncorrecta(R2)
-//         respuestaIncorrecta(R3)
-//         respuestaIncorrecta(R4)
-//         respuestaIncorrecta(R5)
-//         respuestaIncorrecta(R6)
+//         R2=addEventListener('click', function respuesta1() {
+//             console.log("Respuesta incorrecta")
+
+//         })
+//         R3=addEventListener('click', function respuesta2() {
+//             console.log("Respuesta incorrecta")
+
+//         })
+//         R4=addEventListener('click', function respuesta3() {
+//             console.log("Respuesta incorrecta")
+
+//         })
+//         R5=addEventListener('click', function respuesta4() {
+//             console.log("Respuesta incorrecta")
+
+//         })
+//         R6=addEventListener('click', function respuesta5() {
+//             console.log("Respuesta incorrecta")
+//         })
 //     }
-// }
-// function respuestaIncorrecta(R) {
-//     R = addEventListener('click', function () {
-//         console.log("Respuesta incorrecta")
-//     })
 // }
