@@ -419,6 +419,11 @@ function puntaje(puntos) {
         p.append("Obtuviste " + puntos + ": Aparentemente a alguien no le gusta tanto friends")
         espacio.append(p)
     }
+    if (puntos>=6 && puntos<=19) {
+        var p = document.createElement("p")
+        p.append("Obtuviste " + puntos + ": vamos puedes hacerlo mejor")
+        espacio.append(p)
+    }
 
     if (puntos <= 20 && puntos >= 69) {
         var p = document.createElement("p")
