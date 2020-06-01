@@ -33,5 +33,10 @@ document.getElementById('comprar').addEventListener('click', function () {
 document.getElementById('comprar').addEventListener('click', function () {
     alert("Tu compra ha sido realizada con exito")
 })
+// var comprar = $('form')
+// function val() {
+//     alert("Tu compra ha sido realizada con exito")
+//     window.location = 'Friends.html'
+// }
 
 

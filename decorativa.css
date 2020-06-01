@@ -60,13 +60,13 @@
 
 #titulos-tabla{
     font-family: "GABRWFFR";
-    text-align: center;
+    /* text-align: center; */
 }
 
 #texto-tabla{
     font-family:"Roboto";
-    text-align: center;
-    padding: 6px;
+    /* text-align: center;
+    padding: 6px; */
     border-radius: inherit;
 }
 
